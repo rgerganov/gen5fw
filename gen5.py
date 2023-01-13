@@ -17,7 +17,7 @@ FW_FILES = [('lk.rom', 0x00),
 # The structure of the encrypted files is as follows:
 # 4 bytes: decrypted file size
 # 8 bytes: offset
-# remaining bytes: AES-128-CBC encrypted data
+# remaining bytes: AES-128-CBC encrypted data split into 4KB chunks
 FW_ENC_FILES = ['encrypt_lk.rom', 'encrypt_boot.img', 'encrypt_system.img', 'encrypt_recovery.img', 'encrypt_splash.img', 'encrypt_partition.dat']
 
 def read_exactly(f, num_bytes):
@@ -49,6 +49,7 @@ def encrypt_file(in_file, offset, out_file):
         cipher = AES.new(AES_KEY, AES.MODE_CBC, AES_IV)
         outf.write(cipher.encrypt(data))
     outf.close()
+    inf.close()
 
 def crc32_file(in_file):
     prev = 0
