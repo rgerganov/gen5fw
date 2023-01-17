@@ -117,6 +117,20 @@ Go to the "Module Info" and open the third page. Tap 5 times in the bottom right
 
 ![adb](/pics/adb.jpg "adb")
 
+## root shell
+
+You can get root shell by running the `/bin/amossu` binary from the `adb` shell. This binary is part of the official firmware:
+```sh
+$ ls -la bin/amossu
+-rwsr-sr-x 1 root root 37216 Oct  6 08:29 bin/amossu
+```
+It has the setuid bit enabled and it simply does:
+```c
+setgid(0);
+setuid(0);
+execv("/system/bin/sh",__argv);
+```
+
 # Feedback
 
 Let me know if you come up with some cool mods using the hack!
