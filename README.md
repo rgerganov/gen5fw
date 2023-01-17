@@ -7,7 +7,7 @@ Gen5 Navigation firmware running on the head unit of some Hyundai, KIA and Genes
 **WARNING: Make sure you follow the exact steps below or you may risk to brick your car's head unit**
 
 # Installation
-The main tool `gen5.py` is written in Python3. You can install its dependencies (preferrably into venv) with `pip`:
+The main tool `gen5.py` is written in Python3. You can install its dependencies (preferably into venv) with `pip`:
 ```
  pip install -r requirements.txt
 ```
@@ -18,10 +18,10 @@ You will also need the Android tools for manipulating sparse images:
 
 # Obtaining firmware
 
-Download the latest firmware for your car using the Navigation Updater app from [Hyundai](https://update.hyundai.com/)/[KIA](https://update.kia.com/)/[Genesis](https://update.genesis.com/).
+Download the latest firmware for your car using the Navigation Updater app from [Hyundai](https://update.hyundai.com/)/[KIA](https://update.kia.com/)/[Genesis](https://update.genesis.com/). Downloading firmware from another region is fine as long as the car model is available for this region.
+For example, we have successfully installed Middle East firmware on Kia Stinger 2020 which was originally with Canadian firmware.
+
 The Navigation Updater will prepare a USB drive or SD card with the firmware.
-Then install the firmware on your car using the standard update mechanism.
-Do *not* proceed with the next steps if the official firmware cannot be installed successfully on the car.
 
 # Patching
 This guide shows how to patch the official firmware to enable ADB but you are free to change whatever you want.
