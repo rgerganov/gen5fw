@@ -1,6 +1,7 @@
 # Overview
 This repo contains tools and instructions how to patch and deploy the Standard-class 
 Gen5 Navigation firmware running on the head unit of some Hyundai, KIA and Genesis cars.
+It is based on some reverse engineering described in this [blog post](https://xakcop.com/post/hyundai-hack-2/).
 
 ![gen5](/pics/gen5.png "Standard-class Gen5 Navigation")
 
@@ -133,6 +134,6 @@ execv("/system/bin/sh",__argv);
 
 # Feedback
 
-Let me know if you come up with some cool mods using the hack!
+[Let me know](https://github.com/rgerganov/gen5fw/discussions/1) if you come up with some cool mods using the hack!
 The ultimate goal would be to run Doom on the head unit :)
 
