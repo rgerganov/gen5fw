@@ -1,0 +1,11 @@
+ro.product.model=daudioplus
+ro.product.brand=hyundai
+ro.product.name=tlfl_eu
+ro.product.device=daudiopluslow_tlfl_eu
+ro.product.board=daudio
+ro.product.cpu.abi=armeabi-v7a
+ro.product.cpu.abi2=armeabi
+ro.product.manufacturer=mobis
+ro.product.locale.language=en
+ro.product.locale.region=GB
+
