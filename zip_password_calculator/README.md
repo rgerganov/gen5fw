@@ -25,9 +25,11 @@ $ ./zip_password_calculator.sh build.prop.TEST
 
 Run this tool against a file containing the settings for your head unit and get the password, potentially avoiding the need for `bkcrack`.
 
+## USA region, Display Audio Gen 1 (without Nav)
+
 Below you can find the passwords for the US versions of Hyundai and Kia Display Audio Gen 1 systems (without Nav) contributed by [@dracode](https://github.com/dracode).
 
-# Kia
+### Kia
 
 | Model | CodeName | Password |
 |---|---|---|
@@ -40,7 +42,7 @@ Below you can find the passwords for the US versions of Hyundai and Kia Display 
 | 2019 Niro Electric | deev | 2D4A796BD01B08A927BDA2A444C1 |
 
 
-# Hyundai
+### Hyundai
 
 | Model | CodeName | Password |
 |---|---|---|
@@ -66,3 +68,12 @@ Below you can find the passwords for the US versions of Hyundai and Kia Display 
 | 2017 Sonata Hybrid | lfhev | +Ekfrl51Qkshsk#@zpdhkdWkd~-f |
 | 2019 Santa Fe (7 seat) | nc | +Ekfrl51Qkshsk#@zpdhkdWkd~-f |
 | 2017-18 Elantra | ad | +Ekfrl51Qkshsk#@zpdhkdWkd~-f |
+
+## EUR region, Display Audio Gen 1 Plus (with Nav)
+
+### Hyundai
+
+| Vehicle | Model | CodeName | Password |
+|---|---|---|---|
+| i20 | 2018-20 i20 | gb | 6F5510C2134ECF51179C3AC9BCAA |
+| Tucson | Tucson (TLe FL) | tlfl | 15DAA85C8D44B3979CD152A387F6 |
