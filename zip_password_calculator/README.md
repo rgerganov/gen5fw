@@ -18,8 +18,13 @@ ro.product.locale.region=GB
 Most of these values should be either static or guessable with a bit of detective work.
 
 Example:
-```
+```sh
 $ ./zip_password_calculator.sh build.prop.TEST
+15DAA85C8D44B3979CD152A387F6
+```
+
+```sh
+$ node ./zip_password_calculator.mjs build.prop.TEST
 15DAA85C8D44B3979CD152A387F6
 ```
 
